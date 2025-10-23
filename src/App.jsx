@@ -8,6 +8,7 @@ import gsap from "gsap";
 import ShowCase from "./components/ShowCase";
 import Performance from "./components/Performance";
 import Features from "./components/Features";
+import Highlights from "./components/Highlights";
 gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <ShowCase />
       <Performance />
       <Features />
+      <Highlights />
     </main>
   );
 };
