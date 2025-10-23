@@ -12,7 +12,7 @@ import gsap from "gsap";
 import { Group } from "three";
 
 const ModelScroll = () => {
-  const groupRef = useRef<Group>(null);
+  const groupRef = useRef(null);
   const isMobile = useMediaQuery({ query: "(max-width: 1024px)" });
   const { setTexture } = useMacbookStore();
 
